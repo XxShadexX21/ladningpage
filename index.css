@@ -1,0 +1,335 @@
+body{
+    font-family: 'Rubik';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+.logoandname{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 700px;
+}
+.logo{
+    margin-right: 20px;
+}
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .about, .service, .contacts{
+    margin-right: 30px
+  }
+.section1{
+    background-image: url(bglandingpage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+  .headercontainer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .header {
+    display: flex; 
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .explore{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .dream{
+    background: linear-gradient(160deg, #ff0080, #007fff, #01ccff);
+    background-size: 100%; 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  .discover{
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  .start{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 5px;
+    animation: colorChange 5s ease infinite;
+  }
+  .loginmodel {
+    background-color: rgba(217,195,171, 0.5);
+    border-radius: 10px; 
+    padding: 20px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center; 
+    margin-left: 80px;
+}
+h2 {
+  margin-bottom: 20px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+}
+.login-button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  width: 100%; 
+}
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.signuplink {
+  color: #007bff;
+  text-decoration: none; 
+  animation: colorChange 5s ease infinite;
+}
+
+.signuplink:hover {
+  text-decoration: underline; 
+}
+label {
+  display: block; 
+  margin: 10px 0 5px;
+}
+.donthave{
+  margin-top: 10px;
+}
+.aboutsite{
+    display: flex;
+    padding: 20px; 
+    max-width: 800px; 
+    margin: 0 auto 40px; 
+    position: relative;
+    left: -70px;
+    width: 100%;
+    color: rgb(255, 243, 243);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    backdrop-filter: blur(2px);
+    word-spacing: 2.5px;
+  }
+.welcometo{
+  font-size: 14px;
+}
+  .transition {
+    height: 90px; 
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(235, 247, 255) 100%);
+}
+.transition2{
+  height: 90px; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(235, 247, 255) 100%);
+ 
+}
+.section2{
+  background-image: url(clouddd.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.areas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  width: 100%;
+}
+.picsamples{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.pic1{
+  margin: 0 15px 0 15px;
+  padding: 0;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.pic2{
+  margin: 0 15px 0 15px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.pic3{
+  margin: 0 15px 0 15px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.subtext{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  width: 100%;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 15px;
+  transition: transform 0.3s ease;
+}
+
+.pic {
+  display: block;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.image-container:hover .pic {
+  filter: blur(8px);
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1;
+}
+
+.quote{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 20px 10px 20px 10px;
+  flex-wrap: nowrap;
+  color: rgb(238, 238, 238);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  font-family: 'VT323';
+  font-size: 23px;
+  
+
+  width: 100%;
+}
+.transition3{
+  height: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(221, 248, 255) 100%);
+}
+
+.section3{
+  background-image: url(Untitled\ design.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.transition4{
+  height: 90px; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgb(235, 247, 255) 100%);
+}
+
+.section4{
+  background-image: url(unttield.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+.footer{
+  padding-bottom: 40px;
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.87);
+  margin-top: 10px;
+}
+.fa-brands{
+  margin: 0 10px 0 10px;
+}
+.logopic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  margin-top: 7px;
+}
+.linkstuffs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  margin-top: 13px;
+}
+.border{
+  font-weight: lighter;
+  margin: 0 15px 0 15px;
+}
+.legal, .privacy, .security, .access, .cookies{
+  color: white;
+}
+
+
+
